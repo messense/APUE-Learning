@@ -1,5 +1,5 @@
 # compiler
-CC=cc
+CC=cc -std=c99 -Wall
 # delete files
 RM=rm -rf
 # create directory
