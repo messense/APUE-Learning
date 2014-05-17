@@ -3,14 +3,14 @@ APUE-Learning
 
 Codes I wrote when learning Advanced Programming in the UNIX Environment 2nd edition.
 
-The codes doesn't use the `apue.h` introduced in the book for simplicity and readability.
+The codes doesn't use the `apue.h` introduced in the book for simplicity and readability. All the codes are built and tested on OS X 10.9 with LLVM clang.
 
 ## Table of contents
 
 - [X] [Chapter 1.   UNIX System Overview](Chapter-1/)
 - [X] [Chapter 2.  UNIX Standardization and Implementations](Chapter-2/)
 - [X] [Chapter 3.  File I/O](Chapter-3)
-- [ ] Chapter 4.  Files and Directories
+- [ ] [Chapter 4.  Files and Directories](Chapter-4)
 - [ ] Chapter 5.  Standard I/O Library
 - [ ] Chapter 6.  System Data Files and Information
 - [ ] Chapter 7.  Process Environment
@@ -31,7 +31,7 @@ The codes doesn't use the `apue.h` introduced in the book for simplicity and rea
 
 ## How to build
 
-Simple run `make` or enter a specific chapter directory and run `make` to build binaries for that chapter.
+Simply run `make` or enter a specific chapter directory and run `make` to build binaries for that chapter.
 
 ## License
 
