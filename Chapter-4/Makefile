@@ -17,6 +17,9 @@ build:
 	$(CC) access.c -o $(BIN_DIR)/access
 	$(CC) umask.c -o $(BIN_DIR)/umask
 	$(CC) chmod.c -o $(BIN_DIR)/chmod
+	$(CC) unlink.c -o $(BIN_DIR)/unlink
+	$(CC) futimens.c -o $(BIN_DIR)/futimens
+	$(CC) ftw.c -o $(BIN_DIR)/ftw
 
 .PHONY: clean
 
