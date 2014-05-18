@@ -11,11 +11,16 @@ BIN_DIR=../bin/chapter-5
 
 # make build
 build:
-    $(MKDIR) $(BIN_DIR)
-    @echo Starting compile chapter 5 codes...
-    
+	$(MKDIR) $(BIN_DIR)
+	@echo Starting compile chapter 5 codes...
+	$(CC) in2out1.c -o $(BIN_DIR)/in2out1
+	$(CC) in2out2.c -o $(BIN_DIR)/in2out2
+	$(CC) buf.c -o $(BIN_DIR)/buf
+	$(CC) tempfiles.c -o $(BIN_DIR)/tempfiles
+	$(CC) mkstemp.c -o $(BIN_DIR)/mkstemp
+	$(CC) memstr.c -o $(BIN_DIR)/memstr
 
 .PHONY: clean
 
 clean:
-    $(RM) $(BIN_DIR)
+	$(RM) $(BIN_DIR)

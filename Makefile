@@ -5,3 +5,4 @@ default: build
 	cd Chapter-2 && $(MAKE) $@
 	cd Chapter-3 && $(MAKE) $@
 	cd Chapter-4 && $(MAKE) $@
+	cd Chapter-5 && $(MAKE) $@
