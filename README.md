@@ -10,8 +10,8 @@ The codes doesn't use the `apue.h` introduced in the book for simplicity and rea
 - [X] [Chapter 1.   UNIX System Overview](Chapter-1/)
 - [X] [Chapter 2.  UNIX Standardization and Implementations](Chapter-2/)
 - [X] [Chapter 3.  File I/O](Chapter-3)
-- [ ] [Chapter 4.  Files and Directories](Chapter-4)
-- [ ] Chapter 5.  Standard I/O Library
+- [X] [Chapter 4.  Files and Directories](Chapter-4)
+- [ ] [Chapter 5.  Standard I/O Library](Chapter-5)
 - [ ] Chapter 6.  System Data Files and Information
 - [ ] Chapter 7.  Process Environment
 - [ ] Chapter 8.  Process Control
