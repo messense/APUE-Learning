@@ -20,6 +20,9 @@ build:
 	$(CC) unlink.c -o $(BIN_DIR)/unlink
 	$(CC) futimens.c -o $(BIN_DIR)/futimens
 	$(CC) ftw.c -o $(BIN_DIR)/ftw
+	$(CC) chdir.c -o $(BIN_DIR)/chdir
+	$(CC) getcwd.c -o $(BIN_DIR)/getcwd
+	$(CC) printdev.c -o $(BIN_DIR)/printdev
 
 .PHONY: clean
 
