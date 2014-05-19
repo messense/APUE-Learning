@@ -13,8 +13,8 @@ The codes doesn't use the `apue.h` introduced in the book for simplicity and rea
 - [X] [Chapter 4.  Files and Directories](Chapter-4)
 - [X] [Chapter 5.  Standard I/O Library](Chapter-5)
 - [X] [Chapter 6.  System Data Files and Information](Chapter-6)
-- [ ] [Chapter 7.  Process Environment](Chapter-7)
-- [ ] Chapter 8.  Process Control
+- [X] [Chapter 7.  Process Environment](Chapter-7)
+- [ ] [Chapter 8.  Process Control](Chapter-8)
 - [ ] Chapter 9.  Process Relationships
 - [ ] Chapter 10.  Signals
 - [ ] Chapter 11.  Threads
