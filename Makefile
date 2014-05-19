@@ -7,3 +7,4 @@ default: build
 	cd Chapter-4 && $(MAKE) $@
 	cd Chapter-5 && $(MAKE) $@
 	cd Chapter-6 && $(MAKE) $@
+	cd Chapter-7 && $(MAKE) $@
