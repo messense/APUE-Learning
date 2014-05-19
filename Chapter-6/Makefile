@@ -12,7 +12,7 @@ BIN_DIR=../bin/chapter-6
 # make build
 build:
 	$(MKDIR) $(BIN_DIR)
-	@echo Starting compile chapter 6 codes...
+	@echo Compiling chapter 6 codes...
 	$(CC) getpwnam.c -o $(BIN_DIR)/getpwnam
 	$(CC) formattime.c -o $(BIN_DIR)/formattime
 	$(CC) uname.c -o $(BIN_DIR)/uname

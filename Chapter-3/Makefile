@@ -12,7 +12,7 @@ BIN_DIR=../bin/chapter-3
 # make build
 build:
 	$(MKDIR) $(BIN_DIR)
-	@echo Starting compile chapter 3 codes...
+	@echo Compiling chapter 3 codes...
 	$(CC) stdin_seek.c -o $(BIN_DIR)/stdin_seek
 	$(CC) filehole.c -o $(BIN_DIR)/filehole
 	$(CC) printflags.c -o $(BIN_DIR)/printflags

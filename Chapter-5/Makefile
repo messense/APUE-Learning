@@ -12,7 +12,7 @@ BIN_DIR=../bin/chapter-5
 # make build
 build:
 	$(MKDIR) $(BIN_DIR)
-	@echo Starting compile chapter 5 codes...
+	@echo Compiling chapter 5 codes...
 	$(CC) in2out1.c -o $(BIN_DIR)/in2out1
 	$(CC) in2out2.c -o $(BIN_DIR)/in2out2
 	$(CC) buf.c -o $(BIN_DIR)/buf

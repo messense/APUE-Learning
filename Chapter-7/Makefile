@@ -12,7 +12,7 @@ BIN_DIR=../bin/chapter-7
 # make build
 build:
 	$(MKDIR) $(BIN_DIR)
-	@echo Starting compile chapter 7 codes...
+	@echo Compiling chapter 7 codes...
 
 .PHONY: clean
 

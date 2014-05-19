@@ -12,7 +12,7 @@ BIN_DIR=../bin/chapter-2
 # make build
 build:
 	$(MKDIR) $(BIN_DIR)
-	@echo Starting compile chapter 2 codes...
+	@echo Compiling chapter 2 codes...
 	$(CC) printconf.c -o $(BIN_DIR)/printconf
 	$(CC) pathmax.c -o $(BIN_DIR)/pathmax
 	$(CC) openmax.c -o $(BIN_DIR)/openmax

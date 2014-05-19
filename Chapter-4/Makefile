@@ -12,7 +12,7 @@ BIN_DIR=../bin/chapter-4
 # make build
 build:
 	$(MKDIR) $(BIN_DIR)
-	@echo Starting compile chapter 4 codes...
+	@echo Compiling chapter 4 codes...
 	$(CC) printstat.c -o $(BIN_DIR)/printstat
 	$(CC) access.c -o $(BIN_DIR)/access
 	$(CC) umask.c -o $(BIN_DIR)/umask
