@@ -6,8 +6,13 @@ RM=rm -rf
 MKDIR=-mkdir -p
 # binary file directory
 BIN_DIR=../bin/chapter-8
-
-.PHONY: build
+# platform
+OS := $(shell uname)
+ifeq ($(OS), Darwin)
+	NODIV=-Wno-division-by-zero
+else
+	NODIV=-Wno-div-by-zero
+endif
 
 # make build
 build:
@@ -16,7 +21,7 @@ build:
 	$(CC) processinfo.c -o $(BIN_DIR)/processinfo
 	$(CC) fork.c -o $(BIN_DIR)/fork
 	$(CC) vfork.c -o $(BIN_DIR)/vfork
-	$(CC) -Wno-division-by-zero printexit.c -o $(BIN_DIR)/printexit
+	$(CC) $(NODIV) printexit.c -o $(BIN_DIR)/printexit
 
 .PHONY: clean
 

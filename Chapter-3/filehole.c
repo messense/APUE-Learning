@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 
 char buf1[] = "abcdefghij";
 char buf2[] = "ABCDEFGHIJ";

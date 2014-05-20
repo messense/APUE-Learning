@@ -25,3 +25,6 @@
 # binary file directory
 bin/
 bin/*
+
+# vagrant
+.vagrant/

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <sys/types.h>
 
 int globvar = 6; /* external variable in initialized data */
 char buf[] = "a write to stdout\n";

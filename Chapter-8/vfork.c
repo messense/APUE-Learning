@@ -1,5 +1,7 @@
+#define _BSD_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/types.h>
 #include <unistd.h>
 
 int globvar = 6; /* external variable in initialized data */

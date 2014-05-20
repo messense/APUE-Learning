@@ -1,9 +1,9 @@
 APUE-Learning
 =============
 
-Codes I wrote when learning Advanced Programming in the UNIX Environment 2nd edition.
+Codes I wrote when learning Advanced Programming in the UNIX Environment 3rd edition.
 
-The codes doesn't use the `apue.h` introduced in the book for simplicity and readability. All the codes are built and tested on OS X 10.9 with LLVM clang.
+The codes doesn't use the `apue.h` introduced in the book for simplicity and readability. All the codes are built and tested on OS X 10.9 with LLVM clang and Ubuntu 12.04 LTS with GCC 4.6.3.
 
 ## Table of contents
 

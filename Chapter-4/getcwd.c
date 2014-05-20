@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <limits.h>
+#include <sys/types.h>
+#ifdef __linux
+#include <linux/limits.h>
+#endif
 
 int main(int argc, char const *argv[])
 {
