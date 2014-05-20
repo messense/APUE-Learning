@@ -13,6 +13,10 @@ BIN_DIR=../bin/chapter-8
 build:
 	$(MKDIR) $(BIN_DIR)
 	@echo Compiling chapter 8 codes...
+	$(CC) processinfo.c -o $(BIN_DIR)/processinfo
+	$(CC) fork.c -o $(BIN_DIR)/fork
+	$(CC) vfork.c -o $(BIN_DIR)/vfork
+	$(CC) -Wno-division-by-zero printexit.c -o $(BIN_DIR)/printexit
 
 .PHONY: clean
 
