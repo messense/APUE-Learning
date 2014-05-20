@@ -1,6 +1,8 @@
 APUE-Learning
 =============
 
+[![Build Status](https://travis-ci.org/messense/APUE-Learning.svg?branch=master)](https://travis-ci.org/messense/APUE-Learning)
+
 Codes I wrote when learning Advanced Programming in the UNIX Environment 3rd edition.
 
 The codes doesn't use the `apue.h` introduced in the book for simplicity and readability. All the codes are built and tested on OS X 10.9 with LLVM clang and Ubuntu 12.04 LTS with GCC 4.6.3.
