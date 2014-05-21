@@ -1,5 +1,5 @@
-# compiler
-CC=cc -std=c99 -Wall
+# c flag
+CFLAG=-std=c99 -Wall
 # delete files
 RM=rm -rf
 # create directory
@@ -13,12 +13,12 @@ BIN_DIR=../bin/chapter-5
 build:
 	$(MKDIR) $(BIN_DIR)
 	@echo Compiling chapter 5 codes...
-	$(CC) in2out1.c -o $(BIN_DIR)/in2out1
-	$(CC) in2out2.c -o $(BIN_DIR)/in2out2
-	$(CC) buf.c -o $(BIN_DIR)/buf
-	$(CC) -Wno-deprecated-declarations tempfiles.c -o $(BIN_DIR)/tempfiles
-	$(CC) mkstemp.c -o $(BIN_DIR)/mkstemp
-	$(CC) memstr.c -o $(BIN_DIR)/memstr
+	$(CC) $(CFLAG) in2out1.c -o $(BIN_DIR)/in2out1
+	$(CC) $(CFLAG) in2out2.c -o $(BIN_DIR)/in2out2
+	$(CC) $(CFLAG) buf.c -o $(BIN_DIR)/buf
+	$(CC) $(CFLAG) -Wno-deprecated-declarations tempfiles.c -o $(BIN_DIR)/tempfiles
+	$(CC) $(CFLAG) mkstemp.c -o $(BIN_DIR)/mkstemp
+	$(CC) $(CFLAG) memstr.c -o $(BIN_DIR)/memstr
 
 .PHONY: clean
 

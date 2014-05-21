@@ -1,5 +1,5 @@
-# compiler
-CC=cc -std=c99 -Wall
+# c flag
+CFLAG=-std=c99 -Wall
 # delete files
 RM=rm -rf
 # create directory
@@ -13,10 +13,10 @@ BIN_DIR=../bin/chapter-6
 build:
 	$(MKDIR) $(BIN_DIR)
 	@echo Compiling chapter 6 codes...
-	$(CC) getpwnam.c -o $(BIN_DIR)/getpwnam
-	$(CC) formattime.c -o $(BIN_DIR)/formattime
-	$(CC) uname.c -o $(BIN_DIR)/uname
-	$(CC) date.c -o $(BIN_DIR)/date
+	$(CC) $(CFLAG) getpwnam.c -o $(BIN_DIR)/getpwnam
+	$(CC) $(CFLAG) formattime.c -o $(BIN_DIR)/formattime
+	$(CC) $(CFLAG) uname.c -o $(BIN_DIR)/uname
+	$(CC) $(CFLAG) date.c -o $(BIN_DIR)/date
 
 .PHONY: clean
 

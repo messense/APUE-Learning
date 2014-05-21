@@ -1,5 +1,5 @@
-# compiler
-CC=cc -std=c99 -Wall
+# c flag
+CFLAG=-std=c99 -Wall
 # delete files
 RM=rm -rf
 # create directory
@@ -13,9 +13,9 @@ BIN_DIR=../bin/chapter-3
 build:
 	$(MKDIR) $(BIN_DIR)
 	@echo Compiling chapter 3 codes...
-	$(CC) stdin_seek.c -o $(BIN_DIR)/stdin_seek
-	$(CC) filehole.c -o $(BIN_DIR)/filehole
-	$(CC) printflags.c -o $(BIN_DIR)/printflags
+	$(CC) $(CFLAG) stdin_seek.c -o $(BIN_DIR)/stdin_seek
+	$(CC) $(CFLAG) filehole.c -o $(BIN_DIR)/filehole
+	$(CC) $(CFLAG) printflags.c -o $(BIN_DIR)/printflags
 
 .PHONY: clean
 

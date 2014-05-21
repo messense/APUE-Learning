@@ -1,5 +1,5 @@
-# compiler
-CC=cc -std=c99 -Wall
+# c flag
+CFLAG=-std=c99 -Wall
 # delete files
 RM=rm -rf
 # create directory
@@ -18,21 +18,21 @@ endif
 build:
 	$(MKDIR) $(BIN_DIR)
 	@echo Compiling chapter 8 codes...
-	$(CC) processinfo.c -o $(BIN_DIR)/processinfo
-	$(CC) fork.c -o $(BIN_DIR)/fork
-	$(CC) vfork.c -o $(BIN_DIR)/vfork
-	$(CC) $(WNODIV) printexit.c -o $(BIN_DIR)/printexit
-	$(CC) forktwice.c -o $(BIN_DIR)/forktwice
-	$(CC) charatatime1.c -o $(BIN_DIR)/charatatime1
-	$(CC) charatatime2.c -o $(BIN_DIR)/charatatime2
-	$(CC) charatatime3.c -o $(BIN_DIR)/charatatime3
-	$(CC) exec.c -o $(BIN_DIR)/exec
-	$(CC) system.c -o $(BIN_DIR)/system
-	$(CC) genacct.c -o $(BIN_DIR)/genacct
-	$(CC) pracct.c -o $(BIN_DIR)/pracct
-	$(CC) printlogin.c -o $(BIN_DIR)/printlogin
-	$(CC) nice.c -o $(BIN_DIR)/nice
-	$(CC) printtimes.c -o $(BIN_DIR)/printtimes
+	$(CC) $(CFLAG) processinfo.c -o $(BIN_DIR)/processinfo
+	$(CC) $(CFLAG) fork.c -o $(BIN_DIR)/fork
+	$(CC) $(CFLAG) vfork.c -o $(BIN_DIR)/vfork
+	$(CC) $(CFLAG) $(WNODIV) printexit.c -o $(BIN_DIR)/printexit
+	$(CC) $(CFLAG) forktwice.c -o $(BIN_DIR)/forktwice
+	$(CC) $(CFLAG) charatatime1.c -o $(BIN_DIR)/charatatime1
+	$(CC) $(CFLAG) charatatime2.c -o $(BIN_DIR)/charatatime2
+	$(CC) $(CFLAG) charatatime3.c -o $(BIN_DIR)/charatatime3
+	$(CC) $(CFLAG) exec.c -o $(BIN_DIR)/exec
+	$(CC) $(CFLAG) system.c -o $(BIN_DIR)/system
+	$(CC) $(CFLAG) genacct.c -o $(BIN_DIR)/genacct
+	$(CC) $(CFLAG) pracct.c -o $(BIN_DIR)/pracct
+	$(CC) $(CFLAG) printlogin.c -o $(BIN_DIR)/printlogin
+	$(CC) $(CFLAG) nice.c -o $(BIN_DIR)/nice
+	$(CC) $(CFLAG) printtimes.c -o $(BIN_DIR)/printtimes
 
 .PHONY: clean
 

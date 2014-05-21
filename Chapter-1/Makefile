@@ -1,5 +1,5 @@
-# compiler
-CC=cc -std=c99 -Wall
+# c flag
+CFLAG=-std=c99 -Wall
 # delete files
 RM=rm -rf
 # create directory
@@ -13,14 +13,14 @@ BIN_DIR=../bin/chapter-1
 build:
 	$(MKDIR) $(BIN_DIR)
 	@echo Compiling chapter 1 codes...
-	$(CC) ls.c -o $(BIN_DIR)/ls
-	$(CC) in2out1.c -o $(BIN_DIR)/in2out1
-	$(CC) in2out2.c -o $(BIN_DIR)/in2out2
-	$(CC) printpid.c -o $(BIN_DIR)/printpid
-	$(CC) cmd1.c -o $(BIN_DIR)/cmd1
-	$(CC) cmd2.c -o $(BIN_DIR)/cmd2
-	$(CC) printerror.c -o $(BIN_DIR)/printerror
-	$(CC) printuser.c -o $(BIN_DIR)/printuser
+	$(CC) $(CFLAG) ls.c -o $(BIN_DIR)/ls
+	$(CC) $(CFLAG) in2out1.c -o $(BIN_DIR)/in2out1
+	$(CC) $(CFLAG) in2out2.c -o $(BIN_DIR)/in2out2
+	$(CC) $(CFLAG) printpid.c -o $(BIN_DIR)/printpid
+	$(CC) $(CFLAG) cmd1.c -o $(BIN_DIR)/cmd1
+	$(CC) $(CFLAG) cmd2.c -o $(BIN_DIR)/cmd2
+	$(CC) $(CFLAG) printerror.c -o $(BIN_DIR)/printerror
+	$(CC) $(CFLAG) printuser.c -o $(BIN_DIR)/printuser
 
 .PHONY: clean
 
