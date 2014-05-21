@@ -5,15 +5,14 @@ RM=rm -rf
 # create directory
 MKDIR=-mkdir -p
 # binary file directory
-BIN_DIR=../bin/chapter-9
+BIN_DIR=../bin/chapter-10
 
 .PHONY: build
 
 # make build
 build:
 	$(MKDIR) $(BIN_DIR)
-	@echo Compiling chapter 9 codes...
-	$(CC) $(CFLAG) orphan.c -o $(BIN_DIR)/orphan
+	@echo Compiling chapter 10 codes...
 
 .PHONY: clean
 
