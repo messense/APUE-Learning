@@ -60,7 +60,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision "shell" do |sh|
     sh.inline = <<-EOF
       sudo apt-get update
-      sudo apt-get install build-essential --yes
+      sudo apt-get install build-essential clang --yes
     EOF
   end
 

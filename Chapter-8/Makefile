@@ -26,6 +26,13 @@ build:
 	$(CC) charatatime1.c -o $(BIN_DIR)/charatatime1
 	$(CC) charatatime2.c -o $(BIN_DIR)/charatatime2
 	$(CC) charatatime3.c -o $(BIN_DIR)/charatatime3
+	$(CC) exec.c -o $(BIN_DIR)/exec
+	$(CC) system.c -o $(BIN_DIR)/system
+	$(CC) genacct.c -o $(BIN_DIR)/genacct
+	$(CC) pracct.c -o $(BIN_DIR)/pracct
+	$(CC) printlogin.c -o $(BIN_DIR)/printlogin
+	$(CC) nice.c -o $(BIN_DIR)/nice
+	$(CC) printtimes.c -o $(BIN_DIR)/printtimes
 
 .PHONY: clean
 
