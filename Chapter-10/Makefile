@@ -19,6 +19,8 @@ build:
 	$(CC) $(CFLAG) sleep2.c -o $(BIN_DIR)/sleep2
 	$(CC) $(CFLAG) timeout1.c -o $(BIN_DIR)/timeout1
 	$(CC) $(CFLAG) timeout2.c -o $(BIN_DIR)/timeout2
+	$(CC) $(CFLAG) printmask.c -o $(BIN_DIR)/printmask
+	$(CC) $(CFLAG) sigpending.c -o $(BIN_DIR)/sigpending
 
 .PHONY: clean
 
