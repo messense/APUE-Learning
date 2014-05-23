@@ -21,6 +21,9 @@ build:
 	$(CC) $(CFLAG) timeout2.c -o $(BIN_DIR)/timeout2
 	$(CC) $(CFLAG) printmask.c -o $(BIN_DIR)/printmask
 	$(CC) $(CFLAG) sigpending.c -o $(BIN_DIR)/sigpending
+	$(CC) $(CFLAG) signal.c -o $(BIN_DIR)/signal
+	$(CC) $(CFLAG) sigsetjmp.c -o $(BIN_DIR)/sigsetjmp
+	$(CC) $(CFLAG) sigsuspend1.c -o $(BIN_DIR)/sigsuspend1
 
 .PHONY: clean
 
