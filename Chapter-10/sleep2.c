@@ -11,7 +11,7 @@ static void sig_alrm(int signo)
     longjmp(env_alrm, 1);
 }
 
-int my_sleep(int seconds)
+unsigned int my_sleep(unsigned int seconds)
 {
     if (signal(SIGALRM, sig_alrm) == SIG_ERR) {
         return seconds;

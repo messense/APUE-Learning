@@ -8,7 +8,7 @@ static void sig_alrm(int signo)
     /* nothing to do, just return to wake up the pause */
 }
 
-int my_sleep(int seconds)
+unsigned int my_sleep(unsigned int seconds)
 {
     if (signal(SIGALRM, sig_alrm) == SIG_ERR) {
         return seconds;
