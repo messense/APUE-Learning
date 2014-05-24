@@ -12,3 +12,4 @@ default: build
 	cd Chapter-9 && $(MAKE) $@
 	cd Chapter-10 && $(MAKE) $@
 	cd Chapter-11 && $(MAKE) $@
+	cd Chapter-12 && $(MAKE) $@

@@ -19,8 +19,8 @@ The `apue.h` introduced in the book is not used by these codes for simplicity an
 - [X] [Chapter 8.  Process Control](Chapter-8)
 - [X] [Chapter 9.  Process Relationships](Chapter-9)
 - [X] [Chapter 10.  Signals](Chapter-10)
-- [ ] [Chapter 11.  Threads](Chapter-11)
-- [ ] Chapter 12.  Thread Control
+- [X] [Chapter 11.  Threads](Chapter-11)
+- [ ] [Chapter 12.  Thread Control](Chapter-12)
 - [ ] Chapter 13.  Daemon Processes
 - [ ] Chapter 14.  Advanced I/O
 - [ ] Chapter 15.  Interprocess Communication
