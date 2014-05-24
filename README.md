@@ -21,8 +21,8 @@ The `apue.h` introduced in the book is not used by these codes for simplicity an
 - [X] [Chapter 10.  Signals](Chapter-10)
 - [X] [Chapter 11.  Threads](Chapter-11)
 - [X] [Chapter 12.  Thread Control](Chapter-12)
-- [ ] [Chapter 13.  Daemon Processes](Chatper-13)
-- [ ] Chapter 14.  Advanced I/O
+- [X] [Chapter 13.  Daemon Processes](Chatper-13)
+- [ ] [Chapter 14.  Advanced I/O](Chapter-14)
 - [ ] Chapter 15.  Interprocess Communication
 - [ ] Chapter 16.  Network IPC: Sockets
 - [ ] Chapter 17.  Advanced IPC

@@ -11,6 +11,10 @@ BIN_DIR=../bin/chapter-13
 build:
 	$(MKDIR) $(BIN_DIR)
 	@echo Compiling chapter 13 codes...
+	$(CC) $(CFLAG) daemonize.c -o $(BIN_DIR)/daemonize
+	$(CC) $(CFLAG) single.c -o $(BIN_DIR)/single
+	$(CC) $(CFLAG) -pthread reread1.c -o $(BIN_DIR)/reread1
+	$(CC) $(CFLAG) -pthread reread2.c -o $(BIN_DIR)/reread2
 
 .PHONY: clean
 
